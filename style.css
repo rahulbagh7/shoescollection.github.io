@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #F8F6F6;
+} */
+
+/*--------Main Menu css*/
+
+.mainMenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #090e34;
+}
+
+.logo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.mainMenu a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.mainMenu a:hover{
+    color: #dce1e8;
+    text-shadow: 1px 4px 4px #dce1e8 ;
+}
+
+/*------ Section One Css -------*/
+
+.sectionOne{
+    margin: 20px 0;
+    position: relative;
+}
+
+.sectionOne h1{
+    color: #090e34;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.sectionOne::before {
+    content: "";
+    width: 282px;
+    height: 2px;
+    top: 22px;
+    background: #090e34;
+    position: absolute;
+    right: 23px;
+}
+
+.sectionOne::after {
+    content: "";
+    width: 282px;
+    height: 2px;
+    top: 22px;
+    background: #090e34;
+    position: absolute;
+    left: 23px;
+}
+
+.recAdItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px ;
+}
+
+.caption{
+    text-align: center;
+}
+
+
+/* ------ Section Two CSS -----*/
+
+.sectionTwo{
+    display: flex;
+    /* border: 1px black solid; */
+    width: 90%;
+    height: 300px;
+    margin: 80px auto;
+}
+
+.maleItem{
+    width: 50%;
+    height: 100%;
+    /* border: 1px black solid; */
+    position: relative;
+}
+.femaleItem{
+    width: 50%;
+    height: 100%;
+    /* border: 1px black solid; */
+    position: relative;
+}
+
+.shopNowBtn{
+    padding: 15px 35px;
+    color: white;
+    position: absolute;
+    bottom: 127px;
+    left: 134px;
+    background-color: transparent;
+    border-color: white;
+    /* border-radius: 5px; */
+    border: 2px solid white;
+    /* z-index: 20; */
+}
+
+.filter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #090e34;
+    opacity: 0.5;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+/* footer css start -------*/
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #090e34;
+}
+
+#footerSectionOne{
+    margin-top: 20px;
+}
+
+.fItems{
+    text-align: center;
+    mar
+}
+
+#subsEmail{
+    width: 250px;
+    text-align: center;
+    padding: 10px 10px;
+    color: black;
+    font-size: 20px;
+}
+
+#subsEmail:focus{
+  outline: none;
+}
+
+#subsBtn{
+    padding: 10px 10px;
+    font-size: 15px;
+}
